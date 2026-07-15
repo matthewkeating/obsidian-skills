@@ -77,8 +77,8 @@ See [CALLOUTS.md](references/CALLOUTS.md) for the full list with aliases, nestin
 
 ```yaml
 ---
-title: My Note
-date: 2024-01-15
+created: 2024-01-15
+modified: 2024-01-15
 tags:
   - project
   - active
@@ -89,7 +89,7 @@ cssclasses:
 ---
 ```
 
-Default properties: `tags` (searchable labels), `aliases` (alternative note names for link suggestions), `cssclasses` (CSS classes for styling).
+Default properties: `created` and `modified`.
 
 See [PROPERTIES.md](references/PROPERTIES.md) for all property types, tag syntax rules, and advanced usage.
 
